@@ -1,7 +1,9 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+1. The camera is fixed. When I move the cat, the camera does not follow my cat. It is because "GameObjects that are nested below another object in the hierarchy will move with that object", but the camera is not below the cat's hierarchy.
+
+2. [itch.io link](https://yizonglu-kx.itch.io/w1-in-class-activity)
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
