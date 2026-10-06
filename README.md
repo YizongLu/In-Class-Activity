@@ -6,7 +6,11 @@
 2. [itch.io link](https://yizonglu-kx.itch.io/w1-in-class-activity)
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1. It is because the the values of r, g, and b are from 0.0 to 0.1. They are fractional numbers.
+
+2. It is because _bounce variable counts the number of the ball bounced and it is an interger.
+
+3. There is no ";".
 
 ## Open-Source Assets
 ### W1
