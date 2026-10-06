@@ -10,7 +10,7 @@
 
 2. It is because _bounce variable counts the number of the ball bounced and it is an interger.
 
-3. There is no ";".
+3. There is no ";" at the end.
 
 ## Open-Source Assets
 ### W1
