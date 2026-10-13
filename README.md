@@ -21,6 +21,10 @@
 
 A class is recipie of a cheeseburger, and Components is a whole cheeseburger. The method is how to cook the patty, and the member variables are the cheese and lettuces. 
 
+#### Acticity 3
+
+It is because the average speed is greater than speed threshold, and the balls bounce many times. Balls will become brigher if they bounce more. Their brightness will keep multiplying the multiplier of 1.5 while the balls bouncing, so balls will be extremely bright.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
