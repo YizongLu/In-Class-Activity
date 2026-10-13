@@ -9,7 +9,7 @@
 2. It is because _bounce variable counts the number of the ball bounced and it is an interger.
 3. There is no ";" at the end.
 
-###W3
+### W3
 
 #### Activity 1 table 9
 
@@ -19,7 +19,7 @@
 
 #### Activity 2
 
-
+A class is recipie of a cheeseburger, and Components is a whole cheeseburger. The method is how to cook the patty, and the member variables are the cheese and lettuces. 
 
 ## Open-Source Assets
 ### W1
