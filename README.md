@@ -14,13 +14,11 @@
 
 ###W3
 
-#### Activity 1
+#### Activity 1 table 9
 
-1. The parameters are an int refering the player’s current friendship level with the character and a bool refering a flag that tells you whether or not the player knows the character’s secret. The return type is a string that the character's text response.
-
-2. The parameters is a float refering the player's sanity level.
-
-3. The parameter is a float of the time the player hit the beat. The return type is a bool that whether or not the player accurately hit a beat.
+1. The parameters are an int about the player’s current friendship level with the character and a bool about a flag that tells you whether or not the player knows the character’s secret. The return type is a string about the character's text response.
+2. The parameters is a float about the player's sanity level.
+3. The parameter is a float of the time the player hit the beat. The return type is a bool about whether or not the player accurately hit a beat.
 
 #### Activity 2
 
