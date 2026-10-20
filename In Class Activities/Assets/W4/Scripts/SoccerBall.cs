@@ -7,6 +7,8 @@ public class SoccerBall : MonoBehaviour
     [SerializeField] private TMP_Text _pointsText;
     [SerializeField] private TMP_Text _timeText;
     [SerializeField] private ParticleSystem _goalVFX;
+    private int pointcnt=0;
+    private float thetime=0.0f;
 
     // STEP 1 -----------------------------------------------------------------
     // The OnTriggerEnter method is a collision method called by Unity that
@@ -20,11 +22,15 @@ public class SoccerBall : MonoBehaviour
     // You'll also need to have all of your colliders set up properly in the Scene ;)
     //
     // Also, uncomment and FIX the Debug.Log line.
+    private void Update(){
+        thetime += Time.deltaTime;
+        _timeText.text="time since last goal: "+thetime;
+    }
 
-    //private ?? ??
-    //{
+    private void OnTriggerEnter(Collider collider)
+    {
         // finish STEP 1 by uncommenting and fixing the below line!
-        //Debug.Log(SoccerBall detected a collision with a trigger collider!);
+        
 
         // STEP 2 -------------------------------------------------------------
         // Write an IF STATEMENT to check if the game object we collided with
@@ -33,10 +39,12 @@ public class SoccerBall : MonoBehaviour
         //
         // Then, move your Debug.Log() statement so that it's only called if
         //      the colliding object has the "Goal" tag.
-
-
+        if(collider.gameObject.tag.Equals("Goal")){
+            MadeGoal();
+        }
+        return ;
         // STEP 2 -------------------------------------------------------------
-    //}
+    }
 
     // STEP 1 -----------------------------------------------------------------
 
@@ -50,16 +58,23 @@ public class SoccerBall : MonoBehaviour
     //      move your Debug.Log() statement into MadeGoal, and
     //      call MadeGoal from inside your if statement in OnTriggerEnter.
     
+    private void MadeGoal()
+    {
+        Debug.Log("SoccerBall detected a collision with a trigger collider!");
+    
+
         // STEP 4 -------------------------------------------------------------
         // _goalVFX is a ParticleSystem, a Component for creating VFX.
         // ParticleSystem has a method named Play() that displays the VFX:
         // https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ParticleSystem.Play.html 
         //
         // Call Play on _goalVFX.
-
+        _goalVFX.Play();
         // STEP 4 -------------------------------------------------------------
-    
-    
+        pointcnt++;
+        _pointsText.text="Points: "+ pointcnt;
+        thetime=0.0f;
+    }
     // STEP 3 -----------------------------------------------------------------
 
 
@@ -77,6 +92,7 @@ public class SoccerBall : MonoBehaviour
     //      1. Create a new member variable to keep track of the points.
     //      2. Use your MadeGoal method to update the points and text.
     //
+
     // STEP 5 -----------------------------------------------------------------
     
 

@@ -25,6 +25,11 @@ A class is recipie of a cheeseburger, and Components is a whole cheeseburger. Th
 
 It is because the average speed is greater than speed threshold, and the balls bounce many times. Balls will become brigher if they bounce more. Their brightness will keep multiplying the multiplier of 1.5 while the balls bouncing, so balls will be extremely bright.
 
+### W3 Table 7
+
+1. I added Rigidbodies to Cat and SoccerBall and checked Is Trigger on the collider of Goal.
+2. My SoccerBall moved without inertia at first. It is because when I check Freeze Rotation on the X and Z axes of Cat, I also check these boxes of SoccerBall. When I uncheck them, the SoccerBall moves like in the example.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
