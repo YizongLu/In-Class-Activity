@@ -31,6 +31,12 @@ Table 7
 1. I added Rigidbodies to Cat and SoccerBall and checked Is Trigger on the collider of Goal.
 2. My SoccerBall moved without inertia at first. It is because when I check Freeze Rotation on the X and Z axes of Cat, I also check these boxes of SoccerBall. When I uncheck them, the SoccerBall moves like the one in the example.
 
+### W5
+
+1. It needs a Transform variable to get the Transform of the target which the Deer will walk toward, and It needs a NavMeshAgent variable to get the NavMeshAgent Component on the Deer gameObject.
+2. It needs two method one Start() method and one Update() method which are both Unity provided.
+3. Start() method is used to initialize the NavMeshAgent variable by using GetComponent<> to get the NavMeshAgent Component on the Deer gameObject. Update() method is used to call SetDestination of the NavMeshAgent to the position of the target every frame so that the deer will walk toward the target every frame as AI navigation.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
