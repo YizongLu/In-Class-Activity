@@ -40,7 +40,8 @@ Table 7
 ### W7
 
 My category is Unity Coding.
-[Class resource guide]https://docs.google.com/document/d/179zDHWaZxqnBjZy0PR_jNnTRrSRR3sZZ_zDTDfMMah8/edit?tab=t.0
+
+[Class resource guide](https://docs.google.com/document/d/179zDHWaZxqnBjZy0PR_jNnTRrSRR3sZZ_zDTDfMMah8/edit?tab=t.0)
 
 1. It needs a float variable _speed to store the speed of every bat, a Transform variable _playerTransform to store the Transform of player in order to get the position of player, and a bool variable _is_chase to store whether the bat is chasing player or not.
 2. It needs a Start() method, an Update() method, a method StartChase(), and a method StopChase().
