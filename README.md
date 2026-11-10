@@ -31,11 +31,20 @@ Table 7
 1. I added Rigidbodies to Cat and SoccerBall and checked Is Trigger on the collider of Goal.
 2. My SoccerBall moved without inertia at first. It is because when I check Freeze Rotation on the X and Z axes of Cat, I also check these boxes of SoccerBall. When I uncheck them, the SoccerBall moves like the one in the example.
 
-### W5
+### W6
 
 1. It needs a Transform variable to get the Transform of the target which the Deer will walk toward, and It needs a NavMeshAgent variable to get the NavMeshAgent Component on the Deer gameObject.
 2. It needs two method one Start() method and one Update() method which are both Unity provided.
 3. Start() method is used to initialize the NavMeshAgent variable by using GetComponent<> to get the NavMeshAgent Component on the Deer gameObject. Update() method is used to call SetDestination of the NavMeshAgent to the position of the target every frame so that the deer will walk toward the target every frame as AI navigation.
+
+### W7
+
+My category is Unity Coding.
+[Class resource guide]https://docs.google.com/document/d/179zDHWaZxqnBjZy0PR_jNnTRrSRR3sZZ_zDTDfMMah8/edit?tab=t.0
+
+1. It needs a float variable _speed to store the speed of every bat, a Transform variable _playerTransform to store the Transform of player in order to get the position of player, and a bool variable _is_chase to store whether the bat is chasing player or not.
+2. It needs a Start() method, an Update() method, a method StartChase(), and a method StopChase().
+3. In Start(), it will initialize _is_chase to true so that the bat will chase the player. In Update(), it will check whether this bat is chasing the player by using _is_chase bool variable. If the bat is chasing the player, the position of this bat will change to the position where the bat move distance of _speed times Time.deltatime towards the player in every frame. In StartChase(), it will change _is_chase to true, which means the bat will chase the player after call this method. In StopChase(), it will change _is_chase to false, which means the bat will not chase the player after call this method.
 
 ## Open-Source Assets
 ### W1
