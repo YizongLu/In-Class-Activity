@@ -47,6 +47,10 @@ My category is Unity Coding.
 2. It needs a Start() method, an Update() method, a method StartChase(), and a method StopChase().
 3. In Start(), it will initialize _is_chase to true so that the bat will chase the player. In Update(), it will check whether this bat is chasing the player by using _is_chase bool variable. If the bat is chasing the player, the position of this bat will change to the position where the bat move distance of _speed times Time.deltatime towards the player in every frame. In StartChase(), it will change _is_chase to true, which means the bat will chase the player after call this method. In StopChase(), it will change _is_chase to false, which means the bat will not chase the player after call this method.
 
+### W8
+
+The code in Step2 is move Muskrat forward and backward on World Coordinate but not on Local Coordinate. It means when Muskrat rotate an angle and press "w" or "s", Muskrat will move sideways on the x-axis on World Coordinate instead of moving forward straightly.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
