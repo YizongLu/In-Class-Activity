@@ -55,7 +55,7 @@ The code in Step2 is move Muskrat forward and backward on World Coordinate but n
 
 [Diagram](https://docs.google.com/drawings/d/1-2IHIaQdiXLRiDRT_hTV2GmxWNk5YMZFsmzGb04frVw/edit?usp=sharing)
 I did Player, Item, Ground and some arrows between them.
-I draw bubble diagram for my 3D game. I read the instruction and Rubic of Milestone 1 for 3D game. I fork the 3D final from Github and open it in Unity.
+I draw bubble diagram for my 3D game and think about some features of my game. I read the instruction and Rubic of Milestone 1 for 3D game. I fork the 3D final from Github and open it in Unity.
 
 ## Open-Source Assets
 ### W1
