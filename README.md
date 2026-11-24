@@ -51,6 +51,12 @@ My category is Unity Coding.
 
 The code in Step2 is move Muskrat forward and backward on World Coordinate but not on Local Coordinate. It means when Muskrat rotate an angle and press "w" or "s", Muskrat will move sideways on the x-axis on World Coordinate instead of moving forward straightly.
 
+### W9
+
+[Diagram](https://docs.google.com/drawings/d/1-2IHIaQdiXLRiDRT_hTV2GmxWNk5YMZFsmzGb04frVw/edit?usp=sharing)
+I did Player, Item, Ground and some arrows between them.
+I draw bubble diagram for my 3D game. I read the instruction and Rubic of Milestone 1 for 3D game. I fork the 3D final from Github and open it in Unity.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
